@@ -10,7 +10,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:full-combo.helloWorld"
+		"*"
 	],
 	"main": "./extension.js",
 	"contributes": {
@@ -18,6 +18,10 @@
 			{
 				"command": "full-combo.helloWorld",
 				"title": "Hello World"
+			},
+			{
+				"command": "full-combo.command",
+				"title": "Combo"
 			}
 		]
 	},
